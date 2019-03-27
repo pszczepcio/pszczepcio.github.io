@@ -1,6 +1,6 @@
 $(document).ready(function() {
   const apiRoot = 'https://blooming-coast-81725.herokuapp.com/v1/task/';
-  const trelloApiRoot = 'https://blooming-coast-81725.herokuapp.com/v1/trello/';
+  const trelloApiRoot = 'https://blooming-coast-81725.herokuapp.com/v1/trello/getTrelloBoards';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
