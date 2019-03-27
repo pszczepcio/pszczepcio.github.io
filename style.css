@@ -35,12 +35,13 @@ width: 970px; } }
 @media (min-width: 1200px) {
 .container {
 width: 1170px; } }
+
 .kodilla-heading--main {
 margin: 20px auto;
 text-align: center;
-
 font-size: 30px;
 font-weight: 400; }
+
 .datatable__row {
 display: flex;
 flex-flow: row nowrap;
@@ -49,27 +50,37 @@ align-items: stretch;
 border: 1px solid #ccc;
 border-bottom: none;
 margin: 0; }
+
 .datatable__row-section-wrapper {
 display: flex;
 flex-grow: 1;
 justify-content: space-around; }
+
 .datatable__row:first-of-type {
 border-top-left-radius: 4px;
 border-top-right-radius: 4px; }
+
 .datatable__row:last-of-type {
 border-bottom: 1px solid #ccc;
 border-bottom-left-radius: 4px;
 border-bottom-right-radius: 4px; }
+
 .datatable__row input,
+
 .datatable__row textarea {
 display: none; }
+
 .datatable__row .datatable__button--editing {
 display: none; }
+
 .datatable__row--editing input,
+
 .datatable__row--editing textarea {
 display: block; }
+
 .datatable__row--editing .datatable__field-value {
 display: none; }
+
 .datatable__row--editing .datatable__button {
 display: none; }
 .datatable__row--editing .datatable__button--editing,
@@ -120,7 +131,7 @@ font-size: 12px;
 min-width: 120px;
 line-height: 1.25;
 border-radius: 4px; }
-datatable select {
+.datatable select {
 display: block;
 margin-bottom: 10px; }
 
